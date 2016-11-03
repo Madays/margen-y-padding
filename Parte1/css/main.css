@@ -9,9 +9,6 @@ a {
 
 }
 
-h1 {
-    animation: myFrames 2s ease-in-out 0s infinite;
-}
 section {
     border:orange solid 2px;
     margin: 10px;
@@ -21,10 +18,22 @@ section {
     padding: 20px;
     /*outline: solid 2px rgba(255,0,0,1);*/
 }
+@keyframes myFrames{
+    0% {
+        width: 205px;
+    }
+    50% {
+        width: 400px;
+    }
+    100% {
+        width: 200px;
+    }
+    
+}
 section:hover {
     -ms-transform: rotate(7deg); /* IE 9 */
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: translate3d(20,30,80);
+    animation: myFrames 2s ease-in-out 0s infinite;
 }
 h1 {
     text-align: center;
