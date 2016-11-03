@@ -6,6 +6,7 @@ body {
 a {
     color: #fff;
     text-decoration: none;
+
 }
 
 h1 {
@@ -19,6 +20,11 @@ section {
     text-align: justify;
     padding: 20px;
     /*outline: solid 2px rgba(255,0,0,1);*/
+}
+section:hover {
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: translate3d(20,30,80);
 }
 h1 {
     text-align: center;
