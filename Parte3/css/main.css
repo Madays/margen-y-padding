@@ -1,19 +1,59 @@
 /* Agrega aqui tu CSS */
 body {
     margin: 20px;
+    background: lightgreen;
+    color: #fff;
+    border: groove 40px green;
 }
 .contenedor {
-    border: orange 2px solid;
+    border: #fff 2px solid;
     width: 200px;
     height: 200px;
     margin: 0px;
     text-align: justify;
     padding: 20px 10px;
 }
+@keyframes myFrames {
+    0% {
+        transform: translate(100px,0px);
+    }
+    50% {
+        transform: translate(200px,0px);
+    }
+    100% {
+        transform: translate(300px,0px);
+    }
+}
+.contenedor:hover {
+    animation: myFrames 2s ease-in-out 0s infinite;
+}
 
 h2 {
     font-size: 15px;
     display: inline;    
-    border-bottom: orange 2px solid;
+    border-bottom: #fff 2px solid;
     padding-left: 30px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+ul {
+    text-align: center;    
+}
+li {
+    display: inline;
+    font-size: 40px;
+    margin: 20px;
+    border-bottom: solid 4px #fff;       
+}
+li:hover {
+    background: rgba(255,255,255,.6);
 }
