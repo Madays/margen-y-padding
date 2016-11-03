@@ -1,0 +1,47 @@
+body {
+    color: #fff;
+    font: sans-serif;
+    background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQLRl_RN7wI-yA98qYNbb-tEPf9BGdPXyMXVgDV2hLlYPhkVp3h");*
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    animation: myFrames 2s ease-in-out 0s infinite;
+}
+section {
+    border:orange solid 2px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+    padding: 20px;
+    /*outline: solid 2px rgba(255,0,0,1);*/
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+h2 {
+    font-size: 15px;
+    margin-left: 30px;    
+    border-bottom: orange solid 2px;
+    display: inline;
+}
+nav {
+    
+}
+ul {
+    text-align: center;    
+}
+li {
+    display: inline;
+    font-size: 40px;
+    margin: 20px;
+    border-bottom: solid 4px #fff;       
+}
+li:hover {
+    background: rgba(255,255,255,.6);
+}

@@ -1,0 +1,19 @@
+/* Agrega aqui tu CSS */
+body {
+    margin: 20px;
+}
+.contenedor {
+    border: orange 2px solid;
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    text-align: justify;
+    padding: 20px 10px;
+}
+
+h2 {
+    font-size: 15px;
+    display: inline;    
+    border-bottom: orange 2px solid;
+    padding-left: 30px;
+}

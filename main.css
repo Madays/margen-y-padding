@@ -1,0 +1,39 @@
+body {
+    background-image: url("http://desktopography.net/wp-content/uploads/bfi_thumb/Road_To_Shambhala_2560x1440-1-32f55vzyiecqygta4wxssg.png");
+    background-color: greenyellow;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    color: #fff;
+    font: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    background-color: rgba(255,255,255,.7);
+}
+
+ul {
+    text-align: center;    
+}
+
+h3{
+    border-bottom: solid 2px greenyellow; 
+    font-size: 30px;
+    display: inline;
+    display: inline;
+}
+
+li {
+    list-style: none;
+    margin-left: 40%;
+    border-bottom: solid 2px greenyellow;
+    width: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
